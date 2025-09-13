@@ -4,7 +4,7 @@
     margin : 50px;
     padding : 20px;
     text-align :center;
-     box-shadow: 10px 10px rgb(178, 180, 180);
+    box-shadow: 10px 10px rgb(178, 180, 180);
     background: #ffffff;
  
 
@@ -13,11 +13,11 @@
     background: #e2dfdf;
    
 }
-.pname{
+.Aname{
   color: rgb(255, 188, 5) ;
  
 }
-.price{
+p{
     color: rgb(5, 138, 247) ;
     font-size : 18px;
 }
