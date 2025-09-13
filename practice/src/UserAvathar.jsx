@@ -1,15 +1,14 @@
 import './UserAvathar.css'
 
-function UserAvathar(){
+function UserAvathar(student){
     return (
         <div className = " container">
-           <center> <div className = " picture" > <img src = "./spidy.jpg" ></img> </div></center>
-            <p className = " p1" >NAME : SANTHOSH</p>
-            <p>Roll.NO : 24VV5A0575</p>
-            <p>DOB : 01-01-2000</p>
-            <p>college : JNTUGV</p>
-            <p>Address : guntur,andhra pradesh</p>
-            
+          <div className = " picture" > <img src = {student.pic} ></img> </div>
+            <p className = " p1" >NAME : {student.name}</p>
+            <p>Roll.NO : {student.roll}</p>
+            <p>DOB :{student.dob}</p>
+            <p>college : {student.college}</p>
+            <p>Address :{student.Address}</p>
         </div>
     )
 }
