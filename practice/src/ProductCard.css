@@ -1,0 +1,23 @@
+.container{
+    border : 2px solid rgb(0, 0, 0);
+    border-radius : 15px;
+    margin : 50px;
+    padding : 20px;
+    text-align :center;
+     box-shadow: 10px 10px rgb(178, 180, 180);
+    background: #ffffff;
+ 
+
+}
+.container:hover{
+    background: #e2dfdf;
+   
+}
+.pname{
+  color: rgb(255, 5, 222) ;
+ 
+}
+.price{
+    color: rgb(5, 138, 247) ;
+    font-size : 18px;
+}
